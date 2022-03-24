@@ -1,0 +1,36 @@
+#notstonksheader{
+    color: red;
+}
+#stonksheader{
+    color: green;
+}
+body{
+    background-color: aqua;
+}
+p{
+    background-color: red;
+    color: wheat;
+}
+nav{
+    background-color: blue;
+    border-radius: 100px;
+}
+nav a{
+
+    margin-left: 20px;
+    margin-right: auto;
+    width: 100%;
+}
+a{
+    font-size: xx-large;
+    color: wheat;
+}
+article figure img{
+    border: 3px solid black;
+
+    width: 10%;
+}
+article figure img:hover{
+    width: 20%;    
+}
+
