@@ -6,6 +6,7 @@
 }
 body{
     background-color: aqua;
+    font-family: Calibri, Helvetica, sans-serif;
 }
 p{
     background-color: red;
@@ -16,10 +17,13 @@ nav{
     border-radius: 100px;
 }
 nav a{
-
+    text-decoration: none;
     margin-left: 20px;
     margin-right: auto;
     width: 100%;
+}
+nav a:hover{
+    text-decoration: underline;
 }
 a{
     font-size: xx-large;

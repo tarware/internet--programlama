@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style> 
+            button { 
+                background-color:  rgb(102, 102, 204); 
+                width: 100%;
+                color: rgb(3, 2, 0); 
+                padding: 15px; 
+                margin: 10px 0px; 
+                border: none; 
+                cursor: pointer; 
+            } 
+            form { 
+                border: 3px solid whitesmoke; 
+            } 
+            input[type=text], input[type=password] { 
+                width: 100%; 
+                margin: 8px 0;
+                padding: 12px 20px; 
+                display: inline-block; 
+                border: 2px solid black; 
+                box-sizing: border-box; 
+            }
+            button:hover { 
+                opacity: 0.7; 
+            } 
+            .cancelbtn { 
+                width: auto; 
+                padding: 10px 18px;
+                margin: 10px 5px;
+            } 
+            .container { 
+                padding: 25px; 
+                background-color: lightblue;
+            } 
+    </style> 
         <meta charset="utf-8"/>
-        <title>IPForex ~ Forex Trading  </title>
+        <title>IPForex ~ Giriş </title>
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="main.css">
     </head>
-
+  
     <body>
         <img src="site.png">
         <nav>
@@ -17,5 +51,21 @@
             <a href="comm.html">İLETİŞİM</a>
             <a href="sss.html">S.S.S</a>
         </nav>
+        <center> <h1> Üye Girişi  </h1> </center> 
+        <form>
+            <div class="container"> 
+                <label>Mail : </label> 
+                <input type="text" placeholder="Mail adresinizi girin" name="username" required>
+                <label>Parola : </label> 
+                <input type="password" placeholder="Parolanızı girin" name="password" required>
+                <input type="checkbox" checked="checked">Beni hatırla 
+                <h5 >Şifremi <a href="#"> unuttum? </a> </h5> 
+                <button type="submit">Giriş</button> 
+
+                <button onclick="location.href = 'signup.html';">Uye ol</button>
+
+            </div> 
+        </form>   
     </body>
+    
 </html>
