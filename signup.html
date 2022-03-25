@@ -6,6 +6,37 @@
         <title>IPForex ~ Forex Trading  </title>
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="main.css">
+        <style> 
+            button { 
+                background-color:  rgb(102, 102, 204); 
+                width: 100%;
+                color: rgb(3, 2, 0); 
+                padding: 15px; 
+                margin: 10px 0px; 
+                border: none; 
+                cursor: pointer; 
+            } 
+            form { 
+                border: 3px solid whitesmoke; 
+            } 
+            input[type=text], input[type=password], input[type=number], input[type=email] { 
+                width: 100%; 
+                margin: 8px 0;
+                padding: 12px 20px; 
+                display: inline-block; 
+                border: 2px solid black; 
+                box-sizing: border-box; 
+            }
+            button:hover { 
+                opacity: 0.7; 
+            } 
+            .container { 
+                padding: 25px; 
+                background-color: lightblue;
+            } 
+            
+            
+    </style> 
     </head>
 
     <body>
@@ -18,5 +49,21 @@
             <a href="comm.html">İLETİŞİM</a>
             <a href="sss.html">S.S.S</a>
         </nav>
+        <center> <h1> Üye ol </h1> </center> 
+        <form>
+            <div class="container"> 
+                <label>İsim/Soy isim : </label> 
+                <input type="text" placeholder="Adınızı girin" name="name" required>
+                <label>Tc kimlik no : </label> 
+                <input type="number" max="99999999998" minlength="11" min="1" placeholder="T.C kimlik numaranızı girin" name="tcno" required>
+                <label>Mail : </label> 
+                <input type="email" placeholder="Mail adresinizi girin" name="mail" required>
+                <label>Parola : </label> 
+                <input type="password" minlength="8" placeholder="Minumum 8 karakterli parola olusturun" name="password" required>
+                <input type="checkbox" required ><a style="color: black;" href="privacy.html">Gizlilik</a> ve <a style="color: black;" href="terms.html">kullanım şartlarını</a> kabul ediyorum.
+                <button type="submit">UYE OL</button> 
+            </div> 
+        </form>   
     </body>
+    
 </html>
