@@ -4,6 +4,18 @@
 #stonksheader{
     color: green;
 }
+.top5{
+    width: 100%;
+    text-align: center;
+}
+.mynavbar{
+	position:fixed; 
+    top:0px; 
+    left:0px; 
+    right:0px; 
+    height:auto; 
+    background:rgba(0,0,255,0.8);
+}
 body{
     background-color: aqua;
     font-family: Calibri, Helvetica, sans-serif;
@@ -11,10 +23,6 @@ body{
 p{
     background-color: red;
     color: wheat;
-}
-nav{
-    background-color: blue;
-    border-radius: 100px;
 }
 nav a{
     text-decoration: none;
@@ -29,12 +37,12 @@ a{
     font-size: xx-large;
     color: wheat;
 }
-article figure img{
+figure img{
     border: 3px solid black;
 
     width: 10%;
 }
-article figure img:hover{
+figure img:hover{
     width: 20%;    
 }
 
